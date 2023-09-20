@@ -2,8 +2,6 @@ const errorMessage = document.querySelector('.error');
 const emailInput = document.querySelector('#email');
 const form = document.querySelector('.form');
 
-console.log(location.hostname);
-
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   // clear error message
