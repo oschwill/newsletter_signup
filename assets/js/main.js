@@ -2,6 +2,8 @@ const errorMessage = document.querySelector('.error');
 const emailInput = document.querySelector('#email');
 const form = document.querySelector('.form');
 
+console.log(location.hostname);
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   // clear error message
@@ -13,8 +15,7 @@ form.addEventListener('submit', (e) => {
     emailInput.classList.add('error');
     return;
   }
-
-  location.href = '../../newsletter_signup/success.html';
+  location.href = '../newsletter_signup/success.html';
 });
 
 /* FUNCTIONS*/
