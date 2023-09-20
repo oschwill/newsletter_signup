@@ -14,7 +14,7 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
-  location.href = '../../success.html';
+  location.href = '../../newsletter_signup/success.html';
 });
 
 /* FUNCTIONS*/
