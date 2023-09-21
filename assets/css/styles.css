@@ -33,7 +33,7 @@ body {
 }
 
 main {
-  margin: 10vh 20vw;
+  margin: 15vh 25vw;
 }
 
 h1 {
@@ -69,7 +69,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   row-gap: 20px;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 .left-wrapper .product-list p {
